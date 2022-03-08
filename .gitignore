@@ -1,2 +1,15 @@
 *.class
 *.log
+*.iml
+project/target
+.DS_Store
+.tags
+.bsp
+.metals
+.bloop
+.vscode
+metals.sbt
+*.worksheet.sc
+**/target
+/target/
+/.idea
