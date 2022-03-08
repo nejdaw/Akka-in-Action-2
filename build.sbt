@@ -38,3 +38,8 @@ lazy val askWithPayload = project
   .in(file("chapter_01/07_ask_with_payload"))
   .withId("askWithPayload")
   .settings(dependencies)
+
+lazy val timers = project
+  .in(file("chapter_01/08_timers"))
+  .withId("timers")
+  .settings(dependencies)
