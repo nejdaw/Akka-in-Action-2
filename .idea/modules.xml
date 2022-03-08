@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-in-action-2.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-in-action-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-in-action-2-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-in-action-2-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ask.iml" filepath="$PROJECT_DIR$/.idea/modules/ask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/askWithPayload.iml" filepath="$PROJECT_DIR$/.idea/modules/askWithPayload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fsm.iml" filepath="$PROJECT_DIR$/.idea/modules/fsm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newActors.iml" filepath="$PROJECT_DIR$/.idea/modules/newActors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/state.iml" filepath="$PROJECT_DIR$/.idea/modules/state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/types.iml" filepath="$PROJECT_DIR$/.idea/modules/types.iml" />
+    </modules>
+  </component>
+</project>

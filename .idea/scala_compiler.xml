@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="akka-in-action-2,akka-in-action-2_3501,ask,askWithPayload,fsm,hello,newActors,state,types" />
+  </component>
+</project>
