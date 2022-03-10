@@ -7,39 +7,39 @@ lazy val dependencies = libraryDependencies ++= Seq(
 )
 
 lazy val hello = project
-  .in(file("chapter_01/01_hello_world"))
+  .in(file("chapter_02/01_hello_world"))
   .withId("hello")
   .settings(dependencies)
 
 lazy val types = project
-  .in(file("chapter_01/02_proper_types"))
+  .in(file("chapter_02/02_proper_types"))
   .settings(dependencies)
 
 lazy val state = project
-  .in(file("chapter_01/03_state"))
+  .in(file("chapter_02/03_state"))
   .settings(dependencies)
 
 lazy val newActors = project
-  .in(file("chapter_01/04_creating_new_actors"))
+  .in(file("chapter_02/04_creating_new_actors"))
   .withId("newActors")
   .settings(dependencies)
 
 lazy val fsm = project
-  .in(file("chapter_01/05_fsm"))
+  .in(file("chapter_02/05_fsm"))
   .withId("fsm")
   .settings(dependencies)
 
 lazy val ask = project
-  .in(file("chapter_01/06_ask"))
+  .in(file("chapter_02/06_ask"))
   .withId("ask")
   .settings(dependencies)
 
 lazy val askWithPayload = project
-  .in(file("chapter_01/07_ask_with_payload"))
+  .in(file("chapter_02/07_ask_with_payload"))
   .withId("askWithPayload")
   .settings(dependencies)
 
 lazy val timers = project
-  .in(file("chapter_01/08_timers"))
+  .in(file("chapter_02/08_timers"))
   .withId("timers")
   .settings(dependencies)
