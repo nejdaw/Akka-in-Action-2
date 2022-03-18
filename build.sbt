@@ -43,3 +43,25 @@ lazy val timers = project
   .in(file("chapter_02/08_timers"))
   .withId("timers")
   .settings(dependencies)
+
+lazy val sync = project
+  .in(file("chapter_03/01_sync_testing"))
+  .withId("sync")
+  .settings(
+    dependencies,
+    libraryDependencies ++= Seq(
+      "org.scalatest"     %% "scalatest"                % "3.2.11" % Test,
+      "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.18" % Test
+    )
+  )
+
+lazy val async = project
+  .in(file("chapter_03/02_async_testing"))
+  .withId("async")
+  .settings(
+    dependencies,
+    libraryDependencies ++= Seq(
+      "org.scalatest"     %% "scalatest"                % "3.2.11" % Test,
+      "com.typesafe.akka" %% "akka-actor-testkit-typed" % "2.6.18" % Test
+    )
+  )
