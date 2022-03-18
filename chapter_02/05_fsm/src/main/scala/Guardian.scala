@@ -5,7 +5,7 @@ object Guardian {
 
   def apply(): Behavior[Command] =
     Behaviors.setup { context =>
-      val manager: ActorRef[Manager.Command] = context.spawn(Manager(1), "manager-1")
+      val manager: ActorRef[Manager.Command] = context.spawn(Manager(manPower = 1), "manager-1")
 
       Behaviors.receiveMessage { case Start(tasks) =>
         tasks.map { task =>

@@ -35,4 +35,8 @@ object Manager {
   final case class Delegate(tasks: List[String]) extends Command
 
   final case class Report(outline: String) extends Command
+
+  def multiply(x: Int)(y: Int) = x * y
+
+  def multBy5(y: Int) = multiply(5)(y)
 }
